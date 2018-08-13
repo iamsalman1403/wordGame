@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WordGame</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game">
+        <div class="wrap">
+            <div class="game-head">
+                <h2>Word
+                    <span>Game</span>
+                </h2>
+            </div>
+            <div class="game-field">
+                <h2 id="displayWords">hey</h2>
+                <input type="text" id="inputField" placeholder="Start playing..." autofocus>
+            </div>
+            <div class="game-stats">
+                <p class="hidden">' <span id="showStatus"></span> '</p>
+            </div>
+            <div class="game-control">
+                <p>Time : <span id="time">0</span></p>
+                <p>Score : <span id="score">0</span></p>
+                <p>Highscore : <span id="highscore"></span></p>
+            </div>
+            <br>
+            <a href="#inputField" id="playButton" onclick="levelOne()">Level 1</a>
+            <a href="#inputField" id="playButton-ii" onclick="levelTwo()">Level 2</a>
+            <br>
+            <br>
+            <p class="hidden">'<span id="alert"></span>'</p>
+        </div>
+        <div class="about">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi officiis dolorum quia eius vel. Veritatis deleniti harum laborum qui, obcaecati dolorum libero veniam fugit quis minima quam debitis similique doloremque aliquam suscipit et officiis mollitia nulla corporis corrupti autem quasi laboriosam! Suscipit delectus earum blanditiis esse maxime a, odio praesentium magnam quo reiciendis ipsum velit dolorum consequatur mollitia nesciunt alias ex quos. Explicabo id assumenda culpa nostrum minima error facere. Dolore, possimus nulla sint atque maiores facere quam quas qui.</p>
+        </div>
+    </div>
+    <script src="main.js"></script>
+    <script src="level-ii.js"></script>
+    
+</body>
+</html>
